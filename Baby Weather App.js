@@ -1,4 +1,4 @@
-let weather = 'rain';
+let weather = prompt("What\'s the weather?");
 if(weather == 'rain'){
   console.log('Grab the your umberella ☔');
 }
