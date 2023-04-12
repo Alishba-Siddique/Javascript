@@ -2,8 +2,9 @@
 
 1. Baby Weather App
 
-Put on your sunglasses😎
-Grab the your umberella ☔
+  Put on your sunglasses😎  
+
+  Grab the your umberella ☔
 
 2. Chessboard
 
