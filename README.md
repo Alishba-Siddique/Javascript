@@ -1,6 +1,6 @@
 # Learning Javascript
 
-## 1. Tasbeeh
+## Tasbeeh
 
 ### Deployed at "https://gleeful-biscotti-9bee24.netlify.app/"
 
