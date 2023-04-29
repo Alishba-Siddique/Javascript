@@ -33,5 +33,19 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/97811058/231584184-911f79dd-e535-4d58-beac-ba1495e75298.png)
 
+
+## Tasbeeh(Branch)
+
+### Deployed at: https://stellular-lollipop-5d4bd2.netlify.app/
+
+![image](https://user-images.githubusercontent.com/97811058/235325318-bdf4ac44-8d1c-4c69-b601-9d76564ea483.png)
+
+
+## 6. Calculator(Branch)
+
+### Deployed at: https://stellular-lollipop-5d4bd2.netlify.app/
+
+![image](https://user-images.githubusercontent.com/97811058/235325318-bdf4ac44-8d1c-4c69-b601-9d76564ea483.png)
+
 ![image](https://user-images.githubusercontent.com/97811058/231584249-7c4710dd-208d-41bf-8a97-65f9c20b1b00.png)
 
