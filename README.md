@@ -1,6 +1,6 @@
 # Learning Javascript
 
-## Basketball Dashboard
+## Basketball Scoreboard
 
 ### Deployed at "https://aesthetic-halva-d7e384.netlify.app/"
 
