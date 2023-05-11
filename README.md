@@ -50,4 +50,27 @@ Output:
 ![image](https://user-images.githubusercontent.com/97811058/235325318-bdf4ac44-8d1c-4c69-b601-9d76564ea483.png)
 
 
+## 7. Drum Kit Javascript
+
+### Plays the drum kit when the key is pressed
+
+#### Deployed at: "https://elegant-nougat-0f3250.netlify.app/"
+
+https://user-images.githubusercontent.com/97811058/235390990-7939de46-603c-42b9-9abb-5c426abba117.mp4
+
+
+## 8. Basketball Scoreboard
+
+### Deployed at "https://aesthetic-halva-d7e384.netlify.app/"
+
+![image](https://user-images.githubusercontent.com/97811058/235553662-4e223c41-6ace-4278-95f4-82737fc7947a.png)
+
+
+## 9. Blackjack
+
+### Deployed at: "https://musical-llama-820494.netlify.app/"
+
+![image](https://github.com/Alishba-Siddique/Javascript/assets/97811058/63efcaa2-4bf3-4b01-8b78-055f00542e44)
+
+
 
