@@ -1,8 +1,9 @@
 # Learning Javascript
 
-## Blackjack
+## Random Password Generator
 
-### Deployed at: "https://musical-llama-820494.netlify.app/"
+### Deployed at: ""
 
-![image](https://github.com/Alishba-Siddique/Javascript/assets/97811058/63efcaa2-4bf3-4b01-8b78-055f00542e44)
+![image](https://github.com/Alishba-Siddique/Javascript/assets/97811058/01ba9ec5-9097-48d3-88f7-6a3aeb24ad32)
+
 
