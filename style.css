@@ -1,0 +1,58 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(5, 35, 80);
+    text-align: start;
+    color:rgb(217, 248, 186); 
+    display: flex;
+    justify-content: start;
+}
+
+.container{
+    margin: 5rem;
+
+}
+.rndm{
+    color: rgb(239, 80, 56);
+}
+h1{
+   color:rgb(217, 248, 186);
+   font-size: 4rem;
+   margin-top: 5rem;
+}
+input{
+    border: 0.2rem rgb(212, 255, 169) solid;
+    border-radius: 0.3rem;
+    color: rgb(5, 35, 80);
+   font-size: 4rem;
+    margin: 8px;
+    outline: none;
+}
+
+
+#btn{
+    background-color:rgb(217, 248, 186);
+    color: rgb(5, 35, 80);
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+#btn-copy{
+    background-color:rgb(217, 248, 186);
+    color: rgb(5, 35, 80);
+    border: 0.19rem rgb(212, 255, 169) solid;
+    border-radius: 0.3rem;
+    font-size: 3rem;
+    z-index: 1000;
+    padding: 0.6rem;
+    position: relative;
+    bottom: 0.25rem;
+    right: 1.1rem;
+    cursor: pointer;
+}
+
