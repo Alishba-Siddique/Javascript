@@ -41,6 +41,7 @@ button{
     background: transparent;
     color: #ffffff;
     box-shadow: rgba(255, 255, 255, 0.041)5px 5px;
+    font-family:'digital-clock-font';
     font-size: 20px;
     border-radius: 3px;
     padding: 8px;
