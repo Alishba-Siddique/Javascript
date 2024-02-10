@@ -28,7 +28,9 @@
         <input type="text" id="input-el" >
         <button id="input-btn">SAVE INPUT</button>
         <script>
-            let saveInput = document.getElementById("input-btn");
+            let myLeads = [];
+            const inputEl = document.getElementById("input-el");
+            const saveInput = document.getElementById("input-btn");
             saveInput.addEventListener ("click", function() {
                 console.log("Button clicked!");
             });
