@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>sortFruits</title>
+        <style>
+          body {
+              padding: 40px;
+              background: whitesmoke;
+              text-align: center;
+          }
+          
+          #apple-shelf {
+              background: lightcoral;
+              border-radius: 10px;
+              height: 30px;
+              margin: 10px 0;
+              padding-top: 10px;
+              }
+          
+          #orange-shelf {
+              padding-top: 10px;
+              background: lightsalmon;
+              border-radius: 10px;
+              height: 30px;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="apple-shelf"></div>  
+        <div id="orange-shelf"></div>
+        <script>
+          let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"]
+          let appleShelf = document.getElementById("apple-shelf")
+          let orangeShelf = document.getElementById("orange-shelf")
+          
+          // Create a function that puts the apples onto the appleShelf
+          // and the oranges onto the orangeShelf. Use a for loop,
+          // a conditional statement, and the textContent property.
+          
+          function sortFruits () { 
+              for(let i = 0; i < fruit.length; i++)
+              {
+                  if (fruit[i] === "🍎")
+                  {
+                      appleShelf.textContent += "🍎";
+                  }
+                  else if (fruit[i] === "🍊") {
+                      orangeShelf.textContent += "🍊";
+                  }
+                  
+              }
+          }
+          
+          sortFruits();
+        </script>
+    </body>
+</html>
