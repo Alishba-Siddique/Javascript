@@ -97,14 +97,5 @@ The app is responsive and works well on:
 
 ---
 
-## 💡 Improvements
-
-* Add a **"Save Joke"** feature to store favorites
-* Add **dark/light mode** toggle
-* Show multiple jokes at once
-* Share jokes directly to **Twitter / WhatsApp**
-
----
-
 Made with ❤️ and bad jokes
 
