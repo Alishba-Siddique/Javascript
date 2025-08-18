@@ -93,7 +93,7 @@ The app is responsive and works well on:
 
 ## 🖼️ Screenshot
 
-*(You can add your screenshot here once you run it in the browser.)*
+<img width="900" height="452" alt="image" src="https://github.com/user-attachments/assets/02da79af-f56e-46b0-a176-cf3335ab9b4a" />
 
 ---
 
@@ -103,10 +103,6 @@ The app is responsive and works well on:
 * Add **dark/light mode** toggle
 * Show multiple jokes at once
 * Share jokes directly to **Twitter / WhatsApp**
-
----
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
