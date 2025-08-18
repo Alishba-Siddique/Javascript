@@ -40,8 +40,7 @@ A simple web app that fetches random dad jokes from the [icanhazdadjoke API](htt
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/random-dad-joke.git
-```
-````
+   ```
 
 2. Open `index.html` in your browser.
 
