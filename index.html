@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Random Dad Joke</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Random <span class="rndm">Dad Joke</span></h1>
+      <textarea
+        type="text"
+        name="joke"
+        id="jokes"
+        placeholder="Jokes Haha..."
+        readonly
+      ></textarea>
+      <div>
+        <button class="btn" onclick="copyJokes()">
+          Copy <i class="fa fa-copy"></i>
+        </button>
+        <button class="btn" onclick="getRandomJokes()">
+          Click to see a worst dad joke ever <i class="fa fa-smile-o"></i>
+        </button>
+      </div>
+    </div>
+    <script src="jokes.js"></script>
+  </body>
+</html>
