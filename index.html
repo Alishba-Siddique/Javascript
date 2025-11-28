@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <title>Car Engine Soundboard</title>
+  </head>
+  <body>
+    <main
+      id="bg-image"
+      class="bg-image"
+      style="background-image: url('./images/mercedes-bg.jpg')"
+    >
+      <!-- Heading Text -->
+      <div class="title-box">
+        <h1>Car Engine Soundboard</h1>
+        <p>Tap a car to change the background and hear its engine roar.</p>
+      </div>
+
+      <section class="logo-grid">
+        <div class="top-row">
+          <div
+            class="logo-card"
+            onclick="changeBgImageAudio('./images/ferrari-bg.jpg', './audio/ferrari.mp3')"
+          >
+            <img src="./images/ferrari.png" alt="Ferrari" />
+          </div>
+
+          <div
+            class="logo-card"
+            onclick="changeBgImageAudio('./images/mercedes-bg.jpg', './audio/mercedes.mp3')"
+          >
+            <img src="./images/mercedes.png" alt="Mercedes" />
+          </div>
+
+          <div
+            class="logo-card"
+            onclick="changeBgImageAudio('./images/jaguar-bg.jpg', './audio/jaguar.mp3')"
+          >
+            <img src="./images/jaguar.png" alt="Jaguar" />
+          </div>
+
+          <div
+            class="logo-card"
+            onclick="changeBgImageAudio('./images/lamborghini-bg.jpg', './audio/lamborghini.mp3')"
+          >
+            <img src="./images/lamborghini.png" alt="Lamborghini" />
+          </div>
+
+          <div
+            class="logo-card"
+            onclick="changeBgImageAudio('./images/bmw-bg.jpg', './audio/bmw.mp3')"
+          >
+            <img src="./images/bmw.png" alt="BMW" />
+          </div>
+
+          <div
+            class="logo-card"
+            onclick="changeBgImageAudio('./images/tesla-bg.jpg', './audio/tesla.mp3')"
+          >
+            <img src="./images/tesla.png" alt="Tesla" />
+          </div>
+        </div>
+        <div class="bottom-row">
+          <div
+            class="logo-card"
+            onclick="changeBgImageAudio('./images/f1-bg.jpg', './audio/f1.mp3')"
+          >
+            <img src="./images/f1.png" alt="F1 Car" />
+          </div>
+
+          <div
+            class="logo-card"
+            onclick="changeBgImageAudio('./images/rolls-royce-bg.jpg', './audio/rolls-royce.mp3')"
+          >
+            <img src="./images/rolls-royce.png" alt="Rolls Royce" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
