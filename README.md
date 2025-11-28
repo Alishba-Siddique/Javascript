@@ -1,85 +1,144 @@
 # Learning Javascript
 
-## Tasbeeh(Branch)
+Here is a clean, polished **README.md** for your “Car Engine Soundboard” project — perfect for GitHub and portfolios.
+Let me know if you want badges, screenshots, or a more advanced version.
 
-### Deployed at "https://gleeful-biscotti-9bee24.netlify.app/"
+---
 
- ![image](https://user-images.githubusercontent.com/97811058/235234204-c10d0ea0-a52b-4afe-b4fc-9e2aecf7a301.png)
+# 🎧 Car Engine Soundboard
+
+A visually rich and interactive soundboard that lets users tap on car brand logos to **change the background** and **play the matching engine sound**.
+Built with **HTML, CSS (Glassmorphism UI), and JavaScript**.
+
+---
+
+## 🚗 Features
+
+### ✅ Dynamic Background
+
+Clicking a car logo updates the wallpaper with a smooth transition.
+
+### 🎵 Engine Sounds
+
+Each logo plays a unique engine sound.
+When a new sound plays, the previous one automatically stops.
+
+### 💎 Glassmorphism UI
+
+Modern frosted-glass car logo cards with clean hover scaling.
+
+### 📱 Responsive Layout
+
+Logos auto-adjust for different screen sizes.
+The last two logos are centered in a separate row.
+
+### 🏎️ Car Brands Included
+
+* Ferrari
+* Mercedes
+* Jaguar
+* Lamborghini
+* BMW
+* Tesla
+* F1
+* Rolls-Royce
+
+---
+
+## 📂 Project Structure
+
+```
+/
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   ├── default-bg.jpg
+│   ├── ferrari.png
+│   ├── mercades.png
+│   ├── ...
+│   ├── car-brand-bg.jpg
+│   └── ...
+└── audio/
+    ├── ferrari.mp3
+    ├── mercedes.mp3
+    ├── jaguar.mp3
+    ├── ...
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML5** – structure
+* **CSS3** – glass UI, responsiveness, animations
+* **JavaScript** – background switching + audio control
+
+---
+
+## 🚀 How to Run
+
+### Option 1 — Local Browser (Easy)
+
+1. Download or clone the repo:
+
+   ```bash
+   git clone https://github.com/yourusername/car-engine-soundboard.git
+   ```
+2. Open **index.html** in a browser (Chrome recommended).
+3. Enjoy the engine sounds! 🔊
+
+### Option 2 — Live Server (Recommended)
+
+If you have VS Code:
+
+1. Install the **Live Server** extension.
+2. Right-click `index.html`
+3. Click **Open with Live Server**.
+
+---
+
+## 🧠 How It Works
+
+### 🎨 Background Change
+
+JavaScript updates the background using:
+
+```js
+document.getElementById('bg-image').style.backgroundImage = `url("${imageUrl}")`;
+```
+
+### 🔊 Audio System
+
+Ensures only one sound plays at a time:
+
+```js
+if (currentAudio) {
+  currentAudio.pause();
+  currentAudio.currentTime = 0;
+}
+```
+
+---
+
+## 📸 Screenshot
+
+<img width="923" height="457" alt="image" src="https://github.com/user-attachments/assets/6d7336f8-a5c8-4614-9d13-3a1788caa6da" />
 
 
-## Calculator(Branch)
+```
+![Preview](./images/screenshot.png)
+```
 
-### Deployed at: https://stellular-lollipop-5d4bd2.netlify.app/
+---
 
-![image](https://user-images.githubusercontent.com/97811058/235325318-bdf4ac44-8d1c-4c69-b601-9d76564ea483.png)
+## 📌 Future Improvements (Optional Ideas)
 
+* Add more car brands
+* Add neon hover glow animation
+* Add sound equalizer animation
+* Add “Stop Sound” button
+* Add mobile layout & touch ripple effects
 
-##  Drum Kit Javascript
-
-### Plays the drum kit when the key is pressed
-
-#### Deployed at: "https://elegant-nougat-0f3250.netlify.app/"
-
-https://user-images.githubusercontent.com/97811058/235390990-7939de46-603c-42b9-9abb-5c426abba117.mp4
-
-
-## Basketball Scoreboard
-
-### Deployed at "https://aesthetic-halva-d7e384.netlify.app/"
-
-![image](https://user-images.githubusercontent.com/97811058/235553662-4e223c41-6ace-4278-95f4-82737fc7947a.png)
-
-
-## Blackjack
-
-### Deployed at: "https://musical-llama-820494.netlify.app/"
-
-![image](https://github.com/Alishba-Siddique/Javascript/assets/97811058/63efcaa2-4bf3-4b01-8b78-055f00542e44)
-
-
-## Random Password Generator
-
-### Deployed at: "https://delicate-squirrel-ab0f17.netlify.app/"
-
-![image](https://github.com/Alishba-Siddique/Javascript/assets/97811058/01ba9ec5-9097-48d3-88f7-6a3aeb24ad32)
-
-
-## Baby Weather App
-
-  Put on your sunglasses😎  
-  
-  OR
-
-  Grab the your umberella ☔
-
-##  Chessboard
-
-![image](https://user-images.githubusercontent.com/97811058/231553191-cf718ec7-1e0b-4bd6-8b63-4619820acd55.png)
-##  FizzBuzz
-
-## Patterns
-
-Output: 
-
-![image](https://user-images.githubusercontent.com/97811058/231583496-0a599194-a8a9-4e4d-bf86-b94f9d8de94c.png)
-
-![image](https://user-images.githubusercontent.com/97811058/231583609-708d078b-e3d0-43fe-82f6-466c0be27c30.png)
-
-![image](https://user-images.githubusercontent.com/97811058/231583749-386f78f5-15a0-46fd-9607-3b87d1dea8c7.png)
-
-![image](https://user-images.githubusercontent.com/97811058/231583865-f6d5990b-f50d-4d5b-ae45-7f5a7704081d.png)
-
-![image](https://user-images.githubusercontent.com/97811058/231583939-43d05802-764e-4029-affd-a720a6d5364c.png)
-
-![image](https://user-images.githubusercontent.com/97811058/231583998-0546712d-f145-4bd4-aaf4-60f85f6387a9.png)
-      
-![image](https://user-images.githubusercontent.com/97811058/231584095-bad65336-c175-4375-ae7f-93268f64594a.png)
-
-![image](https://user-images.githubusercontent.com/97811058/231584184-911f79dd-e535-4d58-beac-ba1495e75298.png)
-
-![image](https://user-images.githubusercontent.com/97811058/231584249-7c4710dd-208d-41bf-8a97-65f9c20b1b00.png)
-
-
-
-
+---
 
