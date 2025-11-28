@@ -1,8 +1,5 @@
 # Learning Javascript
 
-Here is a clean, polished **README.md** for your “Car Engine Soundboard” project — perfect for GitHub and portfolios.
-Let me know if you want badges, screenshots, or a more advanced version.
-
 ---
 
 # 🎧 Car Engine Soundboard
